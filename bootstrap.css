@@ -1,0 +1,156 @@
+* {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.navbar .nav-link {
+    color: #3ca7b0;
+    font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+    color: #f8c146;
+}
+
+.navbar .nav-link:active {
+    color: #f8c146;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.navbar .scrolled {
+    background-color: #1c1c1c !important;
+}
+
+.content-box {
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.content-box p {
+
+    line-height: 1.7;
+    color: #444;
+}
+
+.profile-img {
+    border: 3px solid #ddd;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.content-box1 {
+    border: 2px solid #ddd;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+    gap: 20px;
+    margin: 10px;
+
+}
+
+.container-form {
+    border: 1px solid #444;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    margin: 10px 250px 80px 250px;
+}
+
+h2,
+h4 {
+    color: #3ca7b0;
+
+}
+
+h5 {
+    color: rgb(74, 207, 163);
+    text-align: justify;
+    font-style: italic;
+    font-size: x-small;
+}
+
+.container-form {
+    max-width: 600px;
+}
+
+.work-title {
+    text-align: center;
+
+    margin-bottom: 40px;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.button {
+
+    box-shadow: 5px 5px;
+}
+
+.button:hover {
+
+    font-weight: bold;
+
+
+}
+
+
+@media (max-width:768px) {
+
+
+
+    main {
+        height: auto;
+
+    }
+
+    #contact .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #contact .row {
+        flex-direction: column;
+    }
+
+    #contact .col {
+        margin-bottom: 15px;
+    }
+
+    .form-check {
+        justify-content: center;
+    }
+
+    button.btn {
+        width: 100%;
+    }
+
+
+
+    .container-form {
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+@media (min-width:769px) and (max-width:1024px) {
+
+
+    main {
+        height: 300px;
+    }
+
+
+}
